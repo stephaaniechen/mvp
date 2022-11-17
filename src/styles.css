@@ -1,0 +1,264 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #C58C7D;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+}
+
+button:hover {
+  background-color: #B47D6B;
+}
+
+/* NAV BAR */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #C58C7D;
+  color: white;
+}
+
+.nav-branding {
+  display: flex;
+}
+
+.logo {
+  height: 3.5em;
+  width: 3.5em;
+  top: 3px;
+  border-radius: 50%;
+  margin-right: 1em;
+  object-fit: cover;
+  position: relative;
+}
+
+.company-name {
+  font-size: 25px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-content: flex-end;
+}
+
+#home-button, #filter-button {
+  color: white;
+  background-color: unset;
+}
+
+#home-button:hover, #filter-button:hover {
+  background-color: #B47D6B;
+}
+
+/* VIEW */
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN VIEW */
+
+.main-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  color: #A38F85;
+}
+
+.main-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ITEM */
+
+#item {
+  display: inline-block;
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+#photos-button {
+  color: #C58C7D;
+  box-shadow: unset;
+}
+
+#photos-button:hover {
+  background-color: rgb(197, 140, 125, 0.25);
+}
+
+.item-control {
+  color: #707370;
+  background-color: unset;
+  box-shadow: unset;
+}
+
+.item-control:hover {
+  color: #595E60;
+  background-color: unset;
+}
+
+.faved, .faved:hover, .fave:hover {
+  color: #E60023;
+}
+
+/* PHOTOS */
+
+#photos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photos-container {
+  width: 50%;
+}
+
+.photos {
+  display: inline-block;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.photos:first-child {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.photos:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* FORM */
+
+.form-container {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: unset;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.form-title {
+  text-align: center;
+  color: #C58C7D;
+}
+
+section {
+  width: 40%;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.form input[type=text], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #C58C7D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #B47D6B;
+}
+
+/* ADD BUTTON */
+
+.add-container {
+  position: fixed;
+  right: 60px;
+  bottom: 30px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75%;
+  border-radius: 50%;
+  border: none;
+  color: white;
+}
+
+/* EXTRAS */
+
+/* .item-container {
+  max-width: 25%;
+  max-height: 25%;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.item-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.item-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item-container:hover .item-image {
+  opacity: 0.3;
+}
+
+.item-container:hover .item-overlay {
+  opacity: 1;
+} */
+
+/* .item-details {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} */
